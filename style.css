@@ -1,78 +1,82 @@
-*{
-    padding: 0px;
+P{
     margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 body{
-    background-color: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(232, 223, 223);
 }
 header{
-    color: white;
-    background-color: rgb(47, 47, 215);
+    background-color: rgb(111, 51, 195);
 }
-header nav{
-   
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin: 5px 0px;
-}
-header nav a {
-    text-align: center;
-    text-decoration: none;
+h1{
+    font-weight: bold;
     text-transform: capitalize;
     color: white;
-    margin: 6px 3px;
-
+    margin-top: 10px;
+    padding-top:10px ;
+    text-align:center ;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    padding-bottom: 8px;
     
 }
-nav a:hover{
-    color: goldenrod;
-    text-decoration: underline;
-}
-header h2{
+nav a{
+    color: white;
+    padding: 0px 10px;
+    text-decoration: none;
     text-transform: capitalize;
     text-align: center;
-    height: 30px;
+    justify-content: center;
+   
 }
 main{
-    font-family: 'Times New Roman', Times, serif;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
     padding: 10px;
 }
 main section{
-    font-size: 15px;
-    border: 1px solid green;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgb(18, 124, 11 o.5);
-    margin-top: 10px;
-
-}
-main section img {
+    border: 1px solid rgb(24, 23, 24);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     
-    max-width: 100%;
-    height: auto;
-
-
 }
-main section h3{
-    text-transform: capitalize;
-    padding-bottom: 7px;
-    color:  rgb(47, 47, 215);
-    text-align: center;
-    text-decoration: none;
+nav a:hover{
+    color: green;
+    text-decoration: underline;
 }
-main section p{
-    word-spacing: 2px;
-    margin: 6px;
+section img:hover{
+color: aqua;
+text-decoration: underline;
+border: 2px dotted green;
+}
+section p {
     padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    color:rgb(111, 51, 195) ;
+    word-spacing: 1.7px;
+}
+section img{
+   
+    height:auto ;
+    width: auto;
+    gap:5px ;
+    margin: 10px;
 }
 footer{
-    background-color:  rgb(47, 47, 215);
-    height: 30px;
+    background-color:rgb(111, 51, 195) ;
     text-align: center;
-    padding: 7px;
+    text-transform: capitalize;
     color: white;
+}
+h3{
+    padding-left: 15px;
+    text-transform: capitalize;
+    color:rgb(111, 51, 195) ;
+    font-weight: bold;
 }
